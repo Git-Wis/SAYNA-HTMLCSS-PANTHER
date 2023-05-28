@@ -19,19 +19,62 @@ nav {
     flex-direction: row;
     justify-content: space-around;
 }
+ ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 35%;
+ }
 
-nav:first-child {
-    flex-grow: 8;
-}
+ ul li {
+    list-style: none;
+ }
 
-nav>h2>a {
+nav h2>a {
     text-decoration: none;
     color: white;
 }
 
-nav>h2 :hover {
+nav h2:hover {
     text-decoration: underline;
 }
+/*les barres vertical*/
+
+.barre{
+    margin-top: -150px;
+    position: absolute;
+    display: flex;
+  }
+  .barre .vertical_full{
+    width: 4px;
+    height: 370px;
+    background-color:#9e91b7;
+  }
+  .barre .vertical_min{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    align-items: center;
+  }
+  .barre .vertical_min .barre_min{
+    width: 4px;
+    height: 200px;
+    background-color:#9e91b7;
+  
+  }
+  .barre .vertical_min .social_media{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+  }
+  .barre .vertical_min .social_media img{
+    margin-top: 21px;
+    cursor: pointer;
+  }
+  .barre .vertical_min .social_media img:hover{
+    filter: sepia(100%) invert(100%) brightness(1000%);
+  }
+
 
 /*CSS du page D'accueil*/
 
@@ -175,3 +218,20 @@ footer {
     display: flex;
     justify-content: space-between;
 }
+
+
+
+/*CSS du page Wakanda*/
+
+.container2{
+    height: 720px;
+    background: url("../illustrations/Wakanda/Pantherwakanda1.png");
+    background-size: 100%;
+}
+
+.vid {
+    height: 458 px;
+    background-color: #fff;
+}
+
+/*CSS du page Enigme*/
