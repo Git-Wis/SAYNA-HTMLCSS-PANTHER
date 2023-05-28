@@ -1,5 +1,30 @@
-*{
+@font-face {
+    font-family: Panthera;
+    src: url("../Police/PantheraRegular-MVZ9J.ttf");
+}
 
+@font-face {
+    font-family: Beyno;
+    src: url("../Police/BEYNO.ttf");
+}
+
+@font-face {
+    font-family: Wakanda-forever;
+    src: url("../Police/Wakanda.ttf");
+}
+
+@font-face {
+    font-family: CantareB;
+    src: url("../Police/Cantarell-Bold.ttf");
+}
+
+@font-face {
+    font-family: CantareR;
+    src: url("../Police/Cantarell-Regular.ttf");
+}
+
+*{
+    font-family: CantareR;
     font-size: 16px;
     margin: 0;
     padding: 0;
@@ -79,7 +104,9 @@ nav h2:hover {
 /*CSS du page D'accueil*/
 
 h1 {
+    font-family: Panthera;
     font-size: 68px;
+    color: #DF99F2;
 }
 
 .vp {
