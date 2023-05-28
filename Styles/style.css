@@ -106,7 +106,13 @@ nav h2:hover {
 h1 {
     font-family: Panthera;
     font-size: 68px;
-    color: #DF99F2;
+    color: #9E91B7;
+}
+
+h2 {
+    font-family: Beyno;
+    font-size: 32px;
+    color: #9E91B7;
 }
 
 .vp {
@@ -122,7 +128,7 @@ h1 {
 }
 
 .part2 {
-    height: 250px;
+    height: 270px;
     margin: 0 0 20px 70px ;
     background-color: #021740;
     display: flex;
@@ -133,7 +139,9 @@ h1 {
 }
 
 .text1 {
-    padding: 30px;
+    padding: 5px;
+    text-align: justify;
+    font-size: 14px;
 }
 
 .container {
@@ -152,17 +160,32 @@ h1 {
     padding: 10px 0;
 }
 
+.txt p {
+    padding: 5px;
+}
+
 .card {
     height: 658px;
-    width: 350px;
+    width: 368px;
     margin: 300px 20px;
     color: black;
     background-color: #F2CEF2;
     border-radius: 10px;
+    
+    
 }
 
 .crd-img>img{
-    margin: -200px 0 0 0;
+    margin: -200px 0 30px 30px;
+}
+
+.crd-container {
+    padding: 20px;
+}
+
+.crd-container>h3 {
+    display: flex;
+    justify-content: center;
 }
 
 .container1 {
